@@ -1,12 +1,5 @@
 
 
-import tkinter             #ventana grafica
-
-ventana = tkinter.Tk()
-ventana.geometry("400x400")
-etiqueta = tkinter.Label(ventana, text = "Generador de notas", bg= "#b3ccff")
-etiqueta.pack(fill=tkinter.X)
-ventana.mainloop()
 
 cantidad = int (input("Ingrese cantidad a calcular : "))
 notas = []
